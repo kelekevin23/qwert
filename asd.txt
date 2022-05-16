@@ -1,0 +1,16 @@
+Kategoria::create(['nev' => 'Ház']);
+
+error:function(data,textStatus,errorThrown){
+	console.log(data.responseJSON.message);
+},
+
+composer create-project --prefer-dist laravel/laravel szalloda2
+
+composer install -> vendor mappa
+
+php artisan make:model asd -mf
+php artisan make:controller asdController
+
+Szerkesztések:
+.env fájl --> adatbázis név átírása
+
